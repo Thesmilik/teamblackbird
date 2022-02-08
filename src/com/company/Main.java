@@ -8,9 +8,14 @@ public class Main {
 
         k1.nazov = "Meciarova vlada";
         k1.autor = "Jozef Iliankoevicis";
+        k1.nazov();
+        k1.autor();
+
 
         k2.nazov = "Nic neviem z programovania";
         k2.autor = "Patrik Sramko";
+        k2.nazov();
+        k2.autor();
         k2.chodNaStranu( 10);
         k2.pocetStran = 60;
         k2.zobrazStranu();
@@ -25,6 +30,7 @@ public class Main {
         pole[0].pocetStran = 50;
         pole[0].chodNaStranu(12);
         pole[0].zobrazStranu();
+
 
 
 

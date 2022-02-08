@@ -16,4 +16,12 @@ public class Kniha {
     int zistiAktualnuStranu(){
         return -1;
     }
+
+    public void nazov() {
+        System.out.println(nazov);
+    }
+
+    public void autor() {
+        System.out.println(autor);
+    }
 }
